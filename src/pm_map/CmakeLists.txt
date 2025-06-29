@@ -1,0 +1,6 @@
+project(pm_map)
+
+add_library(${PROJECT_NAME}
+SHARED
+pm_map.cpp
+)

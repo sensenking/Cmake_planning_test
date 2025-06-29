@@ -1,0 +1,10 @@
+{
+	"InstallScripts" : 
+	[
+		"E:/NEU/Cmake_planning_test/build/cmake_install.cmake",
+		"E:/NEU/Cmake_planning_test/build/src/cmake_install.cmake",
+		"E:/NEU/Cmake_planning_test/build/src/process/cmake_install.cmake",
+		"E:/NEU/Cmake_planning_test/build/src/pm_map/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

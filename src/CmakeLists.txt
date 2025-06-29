@@ -1,0 +1,16 @@
+project(main)
+
+add_subdirectory(process)
+add_subdirectory(pm_map)
+
+add_executable(main main.cpp)
+
+target_include_directories(${PROJECT_NAME}
+PUBLIC
+#  ${CMAKE_SOURCE_DIR}/src/plan 绝对路径
+${Process_Dir}
+)
+target_link_libraries(${PROJECT_NAME}
+PUBLIC
+process
+)
