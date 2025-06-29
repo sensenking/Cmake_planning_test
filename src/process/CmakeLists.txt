@@ -15,6 +15,10 @@ ${CMAKE_SOURCE_DIR}/src/pm_map
 #${CMAKE_SOURCE_DIR}/src/pm_map
 #)
 target_link_libraries(${PROJECT_NAME}
- PRIVATE 
+ PUBLIC 
 pm_map
+)
+target_link_libraries(${PROJECT_NAME}
+PUBLIC
+Eigen3::Eigen
 )

@@ -10,10 +10,7 @@ PUBLIC
 #  ${CMAKE_SOURCE_DIR}/src/plan 绝对路径
 ${Process_Dir}
 )
-target_link_libraries(${PROJECT_NAME}
-PUBLIC
-process
-)
+
 target_link_libraries(main 
     PRIVATE 
         process 
