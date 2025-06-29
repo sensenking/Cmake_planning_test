@@ -1,6 +1,12 @@
 project(pm_map)
 
-add_library(${PROJECT_NAME}
+add_library(pm_map
 SHARED
 pm_map.cpp
+pm_map.h
+)
+# 暴露 pm_map 的头文件路径（供其他模块使用）
+target_include_directories(pm_map 
+    PUBLIC 
+        ${CMAKE_CURRENT_SOURCE_DIR}  # pm_map.h 所在目录
 )

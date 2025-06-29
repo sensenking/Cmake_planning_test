@@ -4,7 +4,7 @@
 # compile CXX with D:/mingw64/bin/g++.exe
 CXX_DEFINES = -Dpm_map_EXPORTS
 
-CXX_INCLUDES = 
+CXX_INCLUDES = @CMakeFiles/pm_map.dir/includes_CXX.rsp
 
 CXX_FLAGS = -g
 

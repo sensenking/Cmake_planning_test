@@ -17,8 +17,8 @@
 		"commands" : 
 		[
 			"add_library",
-			"target_link_directories",
-			"target_link_libraries"
+			"target_link_libraries",
+			"target_include_directories"
 		],
 		"files" : 
 		[
@@ -38,13 +38,13 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 8,
+				"line" : 17,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 12,
+				"line" : 9,
 				"parent" : 0
 			}
 		]
@@ -62,6 +62,13 @@
 			[
 				{
 					"define" : "process_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "E:/NEU/Cmake_planning_test/src/pm_map"
 				}
 			],
 			"language" : "CXX",
@@ -82,7 +89,7 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 3,
+			"backtrace" : 2,
 			"id" : "pm_map::@3b326c392eeb5136fd6a"
 		}
 	],
@@ -93,11 +100,6 @@
 		[
 			{
 				"backtrace" : 2,
-				"fragment" : "-LE:\\NEU\\Cmake_planning_test\\src\\pm_map",
-				"role" : "libraryPath"
-			},
-			{
-				"backtrace" : 3,
 				"fragment" : "..\\pm_map\\libpm_map.dll.a",
 				"role" : "libraries"
 			},
@@ -123,6 +125,13 @@
 			[
 				0
 			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				1
+			]
 		}
 	],
 	"sources" : 
@@ -132,6 +141,11 @@
 			"compileGroupIndex" : 0,
 			"path" : "src/process/process.cpp",
 			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/process/process.h",
+			"sourceGroupIndex" : 1
 		}
 	],
 	"type" : "SHARED_LIBRARY"

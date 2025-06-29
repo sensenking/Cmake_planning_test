@@ -19,8 +19,7 @@
 		],
 		"files" : 
 		[
-			"src/CMakeLists.txt",
-			"src/process/CMakeLists.txt"
+			"src/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -40,13 +39,10 @@
 				"parent" : 0
 			},
 			{
-				"file" : 1
-			},
-			{
 				"command" : 1,
-				"file" : 1,
-				"line" : 12,
-				"parent" : 3
+				"file" : 0,
+				"line" : 17,
+				"parent" : 0
 			},
 			{
 				"command" : 2,
@@ -68,8 +64,12 @@
 			"includes" : 
 			[
 				{
-					"backtrace" : 5,
+					"backtrace" : 4,
 					"path" : "E:/NEU/Cmake_planning_test/src/process"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "E:/NEU/Cmake_planning_test/src/pm_map"
 				}
 			],
 			"language" : "CXX",
@@ -94,7 +94,7 @@
 			"id" : "process::@0c136a57587ef2cf0836"
 		},
 		{
-			"backtrace" : 2,
+			"backtrace" : 3,
 			"id" : "pm_map::@3b326c392eeb5136fd6a"
 		}
 	],
@@ -109,16 +109,11 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "-LE:\\NEU\\Cmake_planning_test\\src\\pm_map",
-				"role" : "libraryPath"
-			},
-			{
-				"backtrace" : 2,
 				"fragment" : "process\\libprocess.dll.a",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 4,
+				"backtrace" : 3,
 				"fragment" : "pm_map\\libpm_map.dll.a",
 				"role" : "libraries"
 			},

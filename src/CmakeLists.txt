@@ -14,3 +14,8 @@ target_link_libraries(${PROJECT_NAME}
 PUBLIC
 process
 )
+target_link_libraries(main 
+    PRIVATE 
+        process 
+        pm_map  # 新增：链接 pm_map 库
+)

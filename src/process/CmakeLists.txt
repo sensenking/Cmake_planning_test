@@ -3,13 +3,18 @@ project(process)
 add_library(${PROJECT_NAME}
 SHARED
 process.cpp
+process.h
 )
 
-target_link_directories(${PROJECT_NAME}
+target_include_directories(${PROJECT_NAME}
 PUBLIC
 ${CMAKE_SOURCE_DIR}/src/pm_map
 )
+#target_link_directories(${PROJECT_NAME}
+#PUBLIC
+#${CMAKE_SOURCE_DIR}/src/pm_map
+#)
 target_link_libraries(${PROJECT_NAME}
-PUBLIC
+ PRIVATE 
 pm_map
 )

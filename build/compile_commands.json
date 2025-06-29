@@ -7,13 +7,13 @@
 },
 {
   "directory": "E:/NEU/Cmake_planning_test/build/src/process",
-  "command": "D:\\mingw64\\bin\\g++.exe -Dprocess_EXPORTS  -g -o CMakeFiles\\process.dir\\process.cpp.obj -c E:\\NEU\\Cmake_planning_test\\src\\process\\process.cpp",
+  "command": "D:\\mingw64\\bin\\g++.exe -Dprocess_EXPORTS @CMakeFiles/process.dir/includes_CXX.rsp -g -o CMakeFiles\\process.dir\\process.cpp.obj -c E:\\NEU\\Cmake_planning_test\\src\\process\\process.cpp",
   "file": "E:/NEU/Cmake_planning_test/src/process/process.cpp",
   "output": "src/process/CMakeFiles/process.dir/process.cpp.obj"
 },
 {
   "directory": "E:/NEU/Cmake_planning_test/build/src/pm_map",
-  "command": "D:\\mingw64\\bin\\g++.exe -Dpm_map_EXPORTS  -g -o CMakeFiles\\pm_map.dir\\pm_map.cpp.obj -c E:\\NEU\\Cmake_planning_test\\src\\pm_map\\pm_map.cpp",
+  "command": "D:\\mingw64\\bin\\g++.exe -Dpm_map_EXPORTS @CMakeFiles/pm_map.dir/includes_CXX.rsp -g -o CMakeFiles\\pm_map.dir\\pm_map.cpp.obj -c E:\\NEU\\Cmake_planning_test\\src\\pm_map\\pm_map.cpp",
   "file": "E:/NEU/Cmake_planning_test/src/pm_map/pm_map.cpp",
   "output": "src/pm_map/CMakeFiles/pm_map.dir/pm_map.cpp.obj"
 }

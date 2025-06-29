@@ -4,7 +4,7 @@
 # compile CXX with D:/mingw64/bin/g++.exe
 CXX_DEFINES = -Dprocess_EXPORTS
 
-CXX_INCLUDES = 
+CXX_INCLUDES = @CMakeFiles/process.dir/includes_CXX.rsp
 
 CXX_FLAGS = -g
 
